@@ -7,6 +7,9 @@ input.onButtonPressed(Button.A, function () {
         # . # . #
         `)
 })
+input.onButtonPressed(Button.AB, function () {
+    basic.showString("go poo!")
+})
 input.onButtonPressed(Button.B, function () {
     basic.showLeds(`
         . # . # .
