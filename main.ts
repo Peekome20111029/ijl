@@ -8,7 +8,7 @@ input.onButtonPressed(Button.A, function () {
         `)
 })
 input.onButtonPressed(Button.AB, function () {
-    basic.showString("go poo!")
+    basic.showString(morse.encode("hi ob vsuirvh"))
 })
 input.onButtonPressed(Button.B, function () {
     basic.showLeds(`
