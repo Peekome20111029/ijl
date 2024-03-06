@@ -21,5 +21,5 @@ input.onButtonPressed(Button.B, function () {
 })
 radio.setGroup(1)
 basic.forever(function () {
-	
+    music.play(music.stringPlayable("B C5 D G F A F C5 ", 120), music.PlaybackMode.UntilDone)
 })
