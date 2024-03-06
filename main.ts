@@ -8,7 +8,7 @@ input.onButtonPressed(Button.A, function () {
         `)
 })
 input.onButtonPressed(Button.AB, function () {
-    basic.showString(morse.encode("hi ob vsuirvh"))
+    radio.sendString("hi")
 })
 input.onButtonPressed(Button.B, function () {
     basic.showLeds(`
@@ -19,6 +19,7 @@ input.onButtonPressed(Button.B, function () {
         . # . # .
         `)
 })
+radio.setGroup(1)
 basic.forever(function () {
 	
 })

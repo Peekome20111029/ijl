@@ -6,12 +6,14 @@
         "radio": "*",
         "microphone": "*",
         "datalogger": "*",
-        "pxt-morse": "github:bsiever/pxt-morse#v2.0.0"
+        "pxt-morse": "github:bsiever/pxt-morse#v2.0.0",
+        "Micro Chat": "pkg:Micro Chat.json"
     },
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "Micro Chat.json"
     ],
     "testFiles": [
         "test.ts"
